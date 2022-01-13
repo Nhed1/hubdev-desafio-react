@@ -1,29 +1,35 @@
 import React from 'react'
 import CardFunciona from './CardFunciona'
 import { useState } from 'react'
+import { countReset } from 'console'
+import CardBeneficio from './CardBeneficio'
 export default function Main() {
-
+    interface CardsFunciona {
+        title: string
+        img: string
+        text: string
+    }
     const cardsFunciona = [
         {
         "title": "Análise de Presença",
         "img": "#",
-        "text": "Sua empresa está presente em todos os mapas e listas?"
+        "text": "Sua empresa está presente em todos os mapas e listas?",
     }, {
         "title": "Correção de Presença",
         "img": "#",
-        "text": "Suas informações corretas e sempre atualizadas."
+        "text": "Suas informações corretas e sempre atualizadas.",
+
     },
     {
         "title": "Manutenção de Presença",
         "img": "#",
-        "text": "Seu negócio efetivamente divulgado em cada localização."
+        "text": "Seu negócio efetivamente divulgado em cada localização.",
     },
     {
         "title": "Análise de Resultados",
         "img": "#",
-        "text": "Saiba de onde vem seus clientes."
+        "text": "Saiba de onde vem seus clientes.",
     }]
-
     const cardsBeneficio = [
         {
             "title": 'Gerenciamento de perfil em tempo real',
@@ -42,23 +48,25 @@ export default function Main() {
             "img": ''
         }
     ]
-    const [cardsBeneficioInfo] = useState(cardsBeneficio)
-    const [cardsFuncionaInfo] = useState(cardsFunciona)
-
     return (
         <main>
             <h2>Como funciona</h2>
             <div className='cards-funciona'>
-                {cardsFuncionaInfo.map(card => (
-                    <div className='card-funciona'><h2>{card.title}</h2><p>{card.text}</p></div>
+                {cardsFunciona.map(card => (
+                    <CardFunciona  
+                    title={card.title}
+                    text={card.text}
+                    img={card.img}
+                    key={Date.now()}/>
                 ))}
             </div>
             <h2>Atraia clientes por toda internet</h2>
             <div className='cards-beneficios'>
                 {cardsBeneficio.map(card => (
-                    <div className='card-beneficio'>
-                        <h2>{card.title}</h2>
-                    </div>
+                    <CardBeneficio
+                    title={card.title}
+                    img={card.img}
+                    key={Date.now()}/>
                 ))}
             </div>
             
