@@ -2,6 +2,8 @@ import React from 'react'
 import CardFunciona from './CardFunciona'
 import CardBeneficio from './CardBeneficio'
 import '../styles/Main.css'
+import { useState } from 'react'
+
 export default function Main() {
     interface CardsFunciona {
         title: string
@@ -51,22 +53,22 @@ export default function Main() {
         <main>
             <h2 className='title-funciona'>Como funciona</h2>
             <div className='cards-funciona'>
-                {cardsFunciona.map(card => (
-                    <CardFunciona  
+                {cardsFunciona.map(function(card,index) {
+                    return (<CardFunciona  
                     title={card.title}
                     text={card.text}
                     img={card.img}
-                    key={Date.now()}/>
-                ))}
+                    key={index}/>)
+})}
             </div>
             <h2>Atraia clientes por toda internet</h2>
             <div className='cards-beneficios'>
-                {cardsBeneficio.map(card => (
-                    <CardBeneficio
+                {cardsBeneficio.map(function(card,index){
+                    return <CardBeneficio
                     title={card.title}
                     img={card.img}
-                    key={Date.now()}/>
-                ))}
+                    key={index}/>
+                })}
             </div>
             
         </main>
