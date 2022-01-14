@@ -13,22 +13,22 @@ export default function Main() {
     const cardsFunciona = [
         {
         "title": "Análise de Presença",
-        "img": "../assets/funciona-1",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
         "text": "Sua empresa está presente em todos os mapas e listas?",
     }, {
         "title": "Correção de Presença",
-        "img": "../assets/funciona-1",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
         "text": "Suas informações corretas e sempre atualizadas.",
 
     },
     {
         "title": "Manutenção de Presença",
-        "img": "../assets/funciona-1",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
         "text": "Seu negócio efetivamente divulgado em cada localização.",
     },
     {
         "title": "Análise de Resultados",
-        "img": "../assets/funciona-1",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
         "text": "Saiba de onde vem seus clientes.",
     }]
     const cardsBeneficio = [

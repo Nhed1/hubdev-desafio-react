@@ -1,6 +1,6 @@
 .card-funciona,
 .card-beneficio {
-  height: 200px;
+  height: auto;
   margin: 10px;
   padding: 16px;
   background-color: #eef1f6;
@@ -8,4 +8,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  width: 45%;
+}
+
+.card-beneficio img,
+.card-funciona img {
+  width: 300px;
+  height: auto;
 }
