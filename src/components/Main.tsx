@@ -1,8 +1,7 @@
 import React from 'react'
 import CardFunciona from './CardFunciona'
-import { useState } from 'react'
-import { countReset } from 'console'
 import CardBeneficio from './CardBeneficio'
+import '../styles/Main.css'
 export default function Main() {
     interface CardsFunciona {
         title: string
@@ -50,7 +49,7 @@ export default function Main() {
     ]
     return (
         <main>
-            <h2>Como funciona</h2>
+            <h2 className='title-funciona'>Como funciona</h2>
             <div className='cards-funciona'>
                 {cardsFunciona.map(card => (
                     <CardFunciona  
