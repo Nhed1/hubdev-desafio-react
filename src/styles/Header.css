@@ -1,4 +1,6 @@
 header {
+  margin: 5%;
+  border-radius: 10px;
   background-color: #0959a3;
   color: #fff;
   padding: 10%;
@@ -8,6 +10,28 @@ header {
   justify-content: space-between;
   flex-direction: column;
 }
+header h1 {
+  font-weight: 400;
+}
 .green {
   color: #76fdbc;
+}
+
+header button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #76fdbc;
+  color: #2b3d4f;
+}
+
+header img {
+  width: 100%;
+  height: auto;
 }
