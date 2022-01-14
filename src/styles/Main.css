@@ -11,6 +11,8 @@ main {
   color: #0959a3;
 }
 
-.cards-funciona {
+.cards-funciona,
+.cards-beneficios {
+  width: 60%;
   padding-top: 16px;
 }

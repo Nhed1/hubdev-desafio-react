@@ -11,22 +11,22 @@ export default function Main() {
     const cardsFunciona = [
         {
         "title": "Análise de Presença",
-        "img": "#",
+        "img": "../assets/funciona-1",
         "text": "Sua empresa está presente em todos os mapas e listas?",
     }, {
         "title": "Correção de Presença",
-        "img": "#",
+        "img": "../assets/funciona-1",
         "text": "Suas informações corretas e sempre atualizadas.",
 
     },
     {
         "title": "Manutenção de Presença",
-        "img": "#",
+        "img": "../assets/funciona-1",
         "text": "Seu negócio efetivamente divulgado em cada localização.",
     },
     {
         "title": "Análise de Resultados",
-        "img": "#",
+        "img": "../assets/funciona-1",
         "text": "Saiba de onde vem seus clientes.",
     }]
     const cardsBeneficio = [
