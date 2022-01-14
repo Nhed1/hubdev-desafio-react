@@ -1,17 +1,18 @@
 header {
-  margin: 5%;
+  margin: 2%;
   border-radius: 10px;
   background-color: #0959a3;
   color: #fff;
   padding: 10%;
   display: flex;
   height: auto;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
 }
 header h1 {
   font-weight: 400;
+}
+header p {
+  font-size: 1.1rem;
 }
 .green {
   color: #76fdbc;
@@ -32,6 +33,14 @@ header button {
 }
 
 header img {
+  margin-top: 40px;
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 720px) {
+  header {
+    padding: 5%;
+    flex-direction: row;
+  }
 }
