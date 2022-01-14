@@ -1,0 +1,13 @@
+header {
+  background-color: #0959a3;
+  color: #fff;
+  padding: 10%;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.green {
+  color: #76fdbc;
+}
