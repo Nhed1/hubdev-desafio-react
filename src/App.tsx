@@ -7,8 +7,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Components for other components
-// button and cards
+
 function App() {
   return (
     <div className="App">

@@ -4,11 +4,7 @@ import CardBeneficio from './CardBeneficio'
 import { useState } from 'react'
 
 export default function Main() {
-    interface CardsFunciona {
-        title: string
-        img: string
-        text: string
-    }
+  
     const cardsFunciona = [
         {
         "title": "Análise de Presença",
