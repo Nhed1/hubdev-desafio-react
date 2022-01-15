@@ -14,26 +14,32 @@ export default function Main() {
         "title": "Análise de Presença",
         "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
         "text": "Sua empresa está presente em todos os mapas e listas?",
+        "alt": "Homem pensando com ícones de mapas e localizações"
     }, {
         "title": "Correção de Presença",
         "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Atualizac%CC%A7a%CC%83o.png",
         "text": "Suas informações corretas e sempre atualizadas.",
+        "alt": "Homem buscando informações em uma lista de paginas"
+
 
     },
     {
         "title": "Manutenção de Presença",
         "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Divulgac%CC%A7a%CC%83o.png",
         "text": "Seu negócio efetivamente divulgado em cada localização.",
+        "alt": "Um megafone saindo de um celular, representando divulgações em redes sociais"
+
     },
     {
         "title": "Análise de Resultados",
         "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Estatisticas-1.png",
         "text": "Saiba de onde vem seus clientes.",
+        "alt": "Duas pessoas fazendo análise de resultados"
     }]
     const cardsBeneficio = [
         {
             "title": 'Gerenciamento de perfil em tempo real',
-            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Tempo-Real-Branco.png'
+            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Tempo-Real-Branco.png',
         },
         {
             "title": 'Gerenciamento de dados de localização',
@@ -57,6 +63,7 @@ export default function Main() {
                     title={card.title}
                     text={card.text}
                     img={card.img}
+                    alt={card.alt}
                     key={index}/>)
 })}
             </div>
