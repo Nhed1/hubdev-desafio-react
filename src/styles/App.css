@@ -19,6 +19,7 @@ img {
 
 /* NAV */
 .navbar {
+  margin: auto;
   padding: 10px 20px;
   font-weight: 600 !important;
 }
@@ -62,6 +63,13 @@ header button {
   border-radius: 10px;
   background-color: #76fdbc;
   color: #2b3d4f;
+  font-weight: 500;
+
+  transition: all 0.3s ease-in-out;
+}
+
+header button:hover {
+  background-color: #61f1ac;
 }
 
 header img {
@@ -119,8 +127,15 @@ h2 {
   justify-content: space-between;
   width: 90%;
   text-align: center;
-
+  cursor: pointer;
   border-radius: 10px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.card-funciona:hover,
+.card-beneficio:hover {
+  transform: translateY(-15px);
 }
 
 .card-funciona p {
