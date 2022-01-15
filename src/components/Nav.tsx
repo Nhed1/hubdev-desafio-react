@@ -9,11 +9,10 @@ export default function Navigation() {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link href="#home">Início</Nav.Link>
-						<Nav.Link href="#link">Como Funciona</Nav.Link>
-						<Nav.Link href="#link">Benefícios</Nav.Link>
-						<Nav.Link href="#link">Contato</Nav.Link>
-						<Nav.Link href="#link">Comece Agora</Nav.Link>
+						<Nav.Link href="#inicio">Início</Nav.Link>
+						<Nav.Link href="#comofunciona">Como Funciona</Nav.Link>
+						<Nav.Link href="#beneficios">Benefícios</Nav.Link>
+						<Nav.Link href="#footer">Contato</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>

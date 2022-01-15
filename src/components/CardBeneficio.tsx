@@ -7,7 +7,7 @@ interface Props {
 
 export default function CardBeneficio(props:Props) {
     return (
-        <div className='card-beneficio'>
+        <div id='beneficios' className='card-beneficio'>
             <h2>{props.title}</h2>
             <img src={props.img} alt="" />
         </div>
