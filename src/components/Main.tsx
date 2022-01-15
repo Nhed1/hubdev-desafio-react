@@ -1,7 +1,6 @@
 import React from 'react'
 import CardFunciona from './CardFunciona'
 import CardBeneficio from './CardBeneficio'
-import '../styles/Main.css'
 import { useState } from 'react'
 
 export default function Main() {
@@ -17,36 +16,36 @@ export default function Main() {
         "text": "Sua empresa está presente em todos os mapas e listas?",
     }, {
         "title": "Correção de Presença",
-        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Atualizac%CC%A7a%CC%83o.png",
         "text": "Suas informações corretas e sempre atualizadas.",
 
     },
     {
         "title": "Manutenção de Presença",
-        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Divulgac%CC%A7a%CC%83o.png",
         "text": "Seu negócio efetivamente divulgado em cada localização.",
     },
     {
         "title": "Análise de Resultados",
-        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/ILUSTRAC%CC%A7A%CC%83O-DU%CC%81VIDA-2.png",
+        "img": "https://hublocal.com.br/wp-content/uploads/2021/03/Ilustrac%CC%A7a%CC%83o-Estatisticas-1.png",
         "text": "Saiba de onde vem seus clientes.",
     }]
     const cardsBeneficio = [
         {
             "title": 'Gerenciamento de perfil em tempo real',
-            "img": ''
+            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Tempo-Real-Branco.png'
         },
         {
             "title": 'Gerenciamento de dados de localização',
-            "img": ''
+            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Limpeza-de-dados-branco.png'
         },
         {
             "title": 'Integração profunda entre mapas e listas',
-            "img": ''
+            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Integrac%CC%A7a%CC%83o-mapas-e-listas-branco.png'
         },
         {
             "title":"Publicações em massa de postagens e conteúdos",
-            "img": ''
+            "img": 'https://hublocal.com.br/wp-content/uploads/2021/03/Postagens-Branco.png'
         }
     ]
     return (

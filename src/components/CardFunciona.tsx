@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/CardFunciona.css'
+// import '../styles/App.css'
 
 interface Props {
     key: number

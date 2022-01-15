@@ -1,3 +1,4 @@
+/* Default */
 body {
   margin: 0;
   padding: 0;
@@ -13,4 +14,161 @@ li {
 img {
   width: 100%;
   height: auto;
+}
+
+/* NAV */
+.navbar {
+  padding: 10px 20px;
+  font-weight: 600 !important;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+/* Header */
+header {
+  margin: 2% 6%;
+  border-radius: 10px;
+  background-color: #0959a3;
+  color: #fff;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  flex-direction: column;
+}
+header h1 {
+  font-weight: 400;
+}
+header p {
+  font-size: 1.1rem;
+}
+.green {
+  color: #76fdbc;
+}
+
+header button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #76fdbc;
+  color: #2b3d4f;
+}
+
+header img {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 720px) {
+  header {
+    height: fit-content;
+    padding: 5%;
+    margin: 40px 16%;
+    flex-direction: row;
+  }
+  header img {
+    width: 70%;
+  }
+}
+
+/* MAIN */
+main {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+h2 {
+  margin: auto;
+  color: #0959a3;
+}
+.title-funciona {
+  font-size: 2rem;
+  color: #0959a3;
+}
+
+.cards-funciona,
+.cards-beneficios {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  padding: 36px 0;
+}
+
+/*  CARDS */
+.card-funciona,
+.card-beneficio {
+  height: auto;
+  margin: 24px 0;
+  padding: 16px;
+  background-color: #eef1f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  text-align: center;
+
+  border-radius: 10px;
+}
+
+.card-funciona p {
+  padding-top: 8px;
+  font-size: 1.2rem;
+  color: #444c53;
+}
+.card-funciona img {
+  align-self: center;
+  width: 70%;
+  height: auto;
+}
+
+.card-beneficio {
+  padding: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0959a3;
+}
+.card-beneficio h2 {
+  color: #fff;
+}
+.card-beneficio img {
+  width: 30%;
+}
+
+@media (min-width: 720px) {
+  .cards-funciona,
+  .cards-beneficios {
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  background-color: #eef1f6;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  footer {
+    flex-direction: row;
+  }
 }

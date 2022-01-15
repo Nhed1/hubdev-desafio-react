@@ -1,6 +1,5 @@
 import React from 'react'
 import {Nav, Navbar, Form, NavDropdown, FormControl,Button } from 'react-bootstrap'
-import '../styles/Nav.css'
 export default function Navigation() {
     return (
         <Navbar bg="light" expand="md" className='navbar'>

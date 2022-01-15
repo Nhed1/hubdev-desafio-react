@@ -5,7 +5,6 @@ import './styles/App.css';
 import Navigation from './components/Nav';
 import Header from './components/Header';
 import Main from './components/Main';
-import Contato from './components/Contato';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Components for other components
@@ -16,7 +15,6 @@ function App() {
       <Navigation></Navigation>
       <Header></Header>
       <Main></Main>
-      <Contato></Contato>
       <Footer></Footer>
     </div>
   );
